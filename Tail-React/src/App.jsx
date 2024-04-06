@@ -1,12 +1,11 @@
 
 import './App.css'
-
+import Signin from '../src/assets/components/Signin'
 function App() {
-
-
   return (
     <>
-     <h1 className=' bg-green-400 text-black p-4 rounded-xl'>Hello world</h1>
+    <Signin/>
+    <button onClick={()=>{}}></button>
     </>
   )
 }
